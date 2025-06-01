@@ -28,3 +28,30 @@ pip install -r requirements.txt
 
 ## Run in Colab
 You can also open the `.ipynb` notebook in Google Colab for easy execution.
+---
+
+## 📌 Final Summary & Insights
+
+This project successfully applies logistic regression to predict customer churn using real-world telecom data.
+
+📈 **Key Results:**
+- **Overall Accuracy:** 81.5%
+- **High Precision for Non-Churned Customers (Class 0):** 0.86
+- **Reasonable Precision for Churned Customers (Class 1):** 0.68
+
+🎯 **Confusion Matrix Insights:**
+- The model correctly predicted **933 loyal customers** (True Negatives)
+- Detected **216 customers likely to churn** (True Positives)
+- Misclassified **157 churned customers** as loyal (False Negatives)
+- Only **103 loyal customers** were misclassified as churners (False Positives)
+
+🧠 **Conclusion:**
+- The logistic regression model demonstrates strong performance, especially for predicting non-churned customers.
+- While the model performs reasonably for churn detection, future improvements may include:
+  - Using ensemble methods like Random Forest or XGBoost
+  - Handling class imbalance with techniques like SMOTE
+  - Advanced feature selection or PCA
+
+💡 This project lays a solid foundation for predictive churn modeling and can be enhanced further in a production environment.
+
+---
