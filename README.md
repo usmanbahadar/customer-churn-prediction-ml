@@ -73,19 +73,6 @@ Upload and run the notebook: `Customer_Churn_Prediction.ipynb`
 
 ### Step 3: Explore the Results
 Check the output cell for accuracy, classification report, and confusion matrix plot.
-
----
-
-## 📁 Project Structure
-
-```
-📦 Customer_Churn_Complete/
-├── Customer_Churn_Prediction.ipynb
-├── README.md
-├── requirements.txt
-└── confusion_matrix.png
-```
-
 ---
 
 ## 📌 Author
